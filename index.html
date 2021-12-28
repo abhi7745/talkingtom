@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Talking Tom</title>
+</head>
+<body style="">
+	<!-- <div style="position: absolute;height: 200px;width: 200px;background-color: red;margin: auto;">gdrgrfgr</div> -->
+
+	<div style="position:relative;height: 100vh;width: 100%;background-color: blue; background-image: linear-gradient(to right bottom, #936bd1, #8c78d8, #8785de, #8490e2, #839be5, #6aa9f2, #48b8fb, #00c5ff, #00d9fb, #00eadb, #00f6a4, #88fb5f);">
+	
+	<!-- <div style="position:absolute;width: 300px;height: 300px;background-color: lightgreen;border: 1px solid black;margin-left: 300px;">
+
+	<div style="position:absolute;width: 300px;height: 300px;background-color: lightgray;border: 1px solid black;margin-left: 300px;margin-top: 50px;"> -->
+
+		<div id="head" style="position: absolute;width: 310px;height: 300px;background-color: ;margin-left: 527px;z-index: 1" onclick="playsong2()"></div>
+		
+		<div id="stomach" style="position: absolute;width: 269px;height: 172px;background-color: ;margin-top: 268px;margin-left: 527px;z-index: 1" onclick="playsong3()"></div>
+
+		<div id="leg" style="position: absolute;width: 269px;height: 214px;background-color: ;
+		margin-top: 441px;margin-left: 527px;z-index: 1" onclick="playsong1()"></div>
+
+		<div id="hand" style="position: absolute;width: 105px;height: 112px;background-color: ;
+		margin-top: 224px;margin-left:737px;z-index: 1 " onclick="playsong4()"></div>
+
+
+		<img id="tom" style="position:absolute;height: 100vh;margin-left: 350px" src="./img/tom.png">
+		
+
+		<script>
+			var mysong1 = new Audio();
+			var mysong2 = new Audio();
+			var mysong3 = new Audio();
+			var mysong4 = new Audio();
+
+			mysong1.src = 'mp3/leg.mp3'
+			mysong2.src = 'mp3/head.mp3'
+			mysong3.src = 'mp3/stomach.mp3'
+			mysong4.src = 'mp3/ahahah.mp3'
+
+
+			const playsong1 = () =>{
+			mysong1.play();
+			}
+			const playsong2 = () =>{
+			mysong2.play();
+			}
+			const playsong3 = () =>{
+			mysong3.play();
+			}
+			const playsong4 = () =>{
+			mysong4.play();
+			}
+
+		</script>
+
+
+
+	</div>
+</body>
+</html>
